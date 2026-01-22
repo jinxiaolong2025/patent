@@ -47,12 +47,9 @@
   - LOOCV：`lin_pls_rf_loo_*_{mae,rmse,r2}.png`。
   - 网格搜索最佳：`lin_pls_rf_grid_best_*.png`（k 折 / 留一，raw/augment/log 组合）。
 
-## Notebook 最优指标摘录（GridSearch 最小 MAE）
-直接解析各 model_traning_*.ipynb 中打印的 “best MAE”：
 
 
 
-说明：上述值来自各 notebook 的 GridSearch-MAE 打印，表示对应场景/特征组合下的最小交叉验证 MAE。其他指标（RMSE/R²）未在输出中打印，如需可按相同 notebook 代码复算。
 
 
 
